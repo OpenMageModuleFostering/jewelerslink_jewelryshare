@@ -116,7 +116,7 @@ class Jewelerslink_Jewelryshare_Model_Import extends Mage_Core_Model_Abstract
         for ($i = 1; $i <= $pageNumbers; $i++) {
             $productCollection = Mage::getResourceModel('catalog/product_collection');
             $productCollection->addAttributeToSelect($attributes);
-            $productCollection->addAttributeToFilter('is_imported', 1);
+            $productCollection->addAttributeToFilter('jewelry_imported', 1);
             $productCollection->setPageSize(self::COLLECTION_PAGE_SIZE);
             $productCollection->setCurPage($i)->load();
             //echo "<pre>"; print_r($productCollection->getData()); exit;
