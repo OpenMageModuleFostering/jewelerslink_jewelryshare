@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Jewelerslink_Jewelryshare",
+    "name": "openmage-module-fostering\/jewelerslink_jewelryshare",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Share Jewelry Products to Jewelrslink.",
     "authors": [
