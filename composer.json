@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Jewelerslink_Jewelryshare",
+    "name": "OpenMageModuleFostering\/Jewelerslink_Jewelryshare",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Share Jewelry Products to Jewelrslink.",
     "authors": [
-    {
-        "name": "John Dorsey",
-        "email": "support@idealbrandmarketing.com"
-    }
-],
+        {
+            "name": "John Dorsey",
+            "email": "support@idealbrandmarketing.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
